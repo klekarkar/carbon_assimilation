@@ -1,0 +1,7 @@
+1. Follow these instructions: https://git.earthdata.nasa.gov/projects/LPDUR/repos/daac_data_download_python/browse?_gl=1*2iphv1*_ga*MTU0Njk3MzA0Ni4xNjk5MDI1MDg1*_ga_0YWDZEJ295*MTcyMjcwNTQ1MS4yMi4xLjE3MjI3MDU0OTYuMC4wLjA.
+
+	create the environment. Place the DAACDataDownload.py file in the C/Users/<username> folder where <username> is replaced with your username
+	Place the .netrc file in the same folder with your nasa earth login credentials.
+	Run the .py file from the anaconda terminal using the instructions from the url
+
+	Alternatively use the script in the notebook from this url https://bpostance.github.io/posts/processing-large-spatial-datasets.md/
