@@ -1,0 +1,57 @@
+1. Go to the local repository of the code and check what has changed since last commit
+	git status
+2. Stage the files to commit
+	git add .
+3. Commit the changes
+	git commit -m "description of changes"
+4.  Pull the Latest Changes from GitHub to ensure your local repository is up-to-date:
+	git pull origin main
+5. Push Your Changes to GitHub
+	git push origin main
+	***********************************
+	Create a new branch and work from it
+	************************************
+1. Create and Switch to a New Branch
+ 	 e.g. git checkout -b code_dev/carbon_analysis
+ 	 explainer: git checkout -b: This option creates a new branch and checks it out (switches to it) immediately. The rest is the name of the branch and the description
+2. Make changes, modify etc.
+3. Stage and commit the changes
+	git add .
+	git commit -m "Implement new feature"
+4.Push the New Branch to GitHub:
+	git push origin code_dev/carbon_analysis
+
+5. Create a Pull Request on GitHub: Go to GitHub, navigate to your repository, and create a pull request from  code_dev/carbon_analysis to main.
+
+6. Merge the Pull Request (after review): Once the pull request is reviewed and approved, you can merge it into main.
+
+7. Update Your Local main Branch:
+
+	git checkout main
+	git pull origin main
+
+To pick up a new e.g. the next day,
+
+1. 1. Navigate to Your Local Repository:
+	Open Git Bash and go to your repository directory if you’re not already there:
+
+	cd path/to/directory
+
+2. Check Out Your Working Branch:
+	Switch to the branch where you were working. If you’re not sure of the branch name, you can list all branches:
+
+	git branch
+
+3. check out the branch you were working on:
+   git checkout branch_name
+
+ 4. Continue from step 3 above
+
+
+
+
+
+
+
+
+
