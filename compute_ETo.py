@@ -292,3 +292,4 @@ def hargreaves_ETo(Tmax, Tmin, Tmean, latitude, day_of_year):
     return ETo
 
 #****************************************************************************************************************************************
+"""surface conductance (gs) based on inversion of P-M equation"""
